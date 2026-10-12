@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "youngboy-shop",
+  "compatibility_date": "2025-08-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "PAYMENTS_DB",
+      "database_name": "youngboy-shop-payments",
+      "database_id": "50a7ca12-b1fd-4cd6-b4b4-cf411724a974",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "VENMO_USERNAME": "@Leshonda-Jenkins-2",
+    "CHIME_DESTINATION": "$Leshonda-Jenkins-2"
+  }
+}
